@@ -29,6 +29,8 @@ export const typeToExtension = (options: AttachmentOptions): string => {
       return "webm";
     case ContentType.JPEG:
       return "jpg";
+    case ContentType.DIFF:
+      return "imagediff"
   }
   throw new Error(`Unrecognized extension: ${options.contentType}`);
 };

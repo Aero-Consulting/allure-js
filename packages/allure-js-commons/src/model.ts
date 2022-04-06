@@ -149,6 +149,7 @@ export enum ContentType {
   ZIP = "application/zip",
   WEBM = "video/webm",
   JPEG = "image/jpeg",
+  DIFF = "application/vnd.allure.image.diff"
 }
 
 /* eslint-disable no-shadow */
